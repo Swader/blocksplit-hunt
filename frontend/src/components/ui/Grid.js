@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Tile from '../containers/Tile';
 
-const size = Array.apply(null, Array(6))
+const size = Array.apply(null, Array(8))
 
 class Grid extends Component {
   constructor(props) {

@@ -72,7 +72,7 @@ class App extends Component {
           .scanQRCode()
           .then(data => {
             // console.log('QR Scanned:', data)
-            
+
             // alert(data);
             setTimeout(() => {
               if (data.indexOf("chest") != -1) {
@@ -147,7 +147,7 @@ class App extends Component {
             <button onClick={() => this.props.openHelp()}>?&#191;?</button>
           </div>
           <Grid solved={solved} />
-          <h1 className={readyToPlay ? '': ''}>Bločk Crypto Hunt</h1>
+          <h1 className={readyToPlay ? '': ''}>BlockSplit Crypto Hunt</h1>
           <div className={`claim-button-container ${readyToPlay ? '': ''}`}>
             <button onClick={() => this.claimToken()}>scan qr code</button>
           </div>
