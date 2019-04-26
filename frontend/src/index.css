@@ -363,11 +363,11 @@ h3 {
   background-size: contain;
 }
 .tile-6{
-  background: url("./assets/5.png") no-repeat center center;
+  background: url("./assets/6.png") no-repeat center center;
   background-size: contain;
 }
 .tile-7{
-  background: url("./assets/8.jpg") no-repeat center center;
+  background: url("./assets/7.png") no-repeat center center;
   background-size: contain;
 }
 .tile-8{
@@ -406,11 +406,11 @@ h3 {
   background-size: contain;
 }
 .tile-6::before{
-  background: url("./assets/5.png") no-repeat center center;
+  background: url("./assets/6.png") no-repeat center center;
   background-size: contain;
 }
 .tile-7::before{
-  background: url("./assets/8.jpg") no-repeat center center;
+  background: url("./assets/7.png") no-repeat center center;
   background-size: contain;
 }
 .tile-8::before{
